@@ -1,0 +1,142 @@
+a:link{
+    text-decoration: none!important;
+}
+
+#header {
+    display: block;
+    height: 160px;
+}
+
+#header > img{
+    width: 100px;
+    height: 100px;
+}   
+#header > h1{
+    background-color: red;
+    color: white;
+}   
+
+#nav-bar > ul {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+#nav-bar > ul > li{
+    /* display: block; */
+    line-height: 20px;
+   
+    
+}
+
+#introduce{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+#introduce > h2{
+    align-content: center;
+    text-align: center;
+}
+#introduce > p{
+    font-size: 30px;
+}
+
+#introduce > p > b{
+    display: block;
+    color: black !important;
+}
+
+#img-1 {
+    text-align: left;
+    width: 100%;
+}
+
+#time-line {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: left;
+    line-height: 35px;
+    size: 30px;
+}
+
+#time-line >  {
+    
+}
+
+#time-line > h1{
+    align-content: center;
+    text-align: center;
+}
+
+#menu {
+  
+}
+#menu > table {
+    margin: auto 25%;
+    width: 1200px;
+    height: 700px;
+    border-spacing: 2px;
+}
+
+
+
+#green-tea {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/greentea.jpg");
+    background-size: cover;
+    text-align: right;
+    
+}
+
+#black-tea {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/blacktea.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#olong-tea {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/olongtea.jpg");
+    background-size: cover;
+    text-align: left;
+}
+#fruit-tea {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/fruit.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#milk-tea {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/milktea.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.hot {
+    text-align:left ;
+}
+.cold {
+    text-align:right ;
+}
+
+.cold-only {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
